@@ -25,7 +25,7 @@ class UserRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'required|between:2,25|unique:' . Auth::id(),
+            'name' => 'required|between:2,25',
             'email' => 'required|email',
             'introduction' => 'max:80',
         ];
