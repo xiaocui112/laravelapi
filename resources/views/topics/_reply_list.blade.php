@@ -35,3 +35,6 @@
 
     @endforeach
 </ul>
+<div class="mt-5">
+    {!! $replies->appends(Request::except('page'))->render() !!}
+</div>
