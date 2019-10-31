@@ -32,6 +32,12 @@
                         <i class="fa fa-plus"></i>新建话题
                     </a>
                 </li>
+                <li class="nav-item notification-badge">
+                    <a class="nav-link mr-3 pl-2 pr-2 badge badge-pill badge-{{ Auth::user()->notification_count > 0 ? 'hint' : 'secondary' }} text-white"
+                        href="{{ route('notifications.index') }}">
+                        通知 {{ Auth::user()->notification_count }}
+                    </a>
+                </li>
                 <li class="nav-item dropdown">
 
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
