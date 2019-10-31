@@ -41,6 +41,7 @@ class UsersController extends AdminController
         $grid->column('notification_count', __('通知'));
         $grid->disableCreateButton();
         $grid->disableActions();
+        $grid->disableBatchActions();
         return $grid;
     }
 

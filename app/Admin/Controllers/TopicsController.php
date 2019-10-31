@@ -3,6 +3,7 @@
 namespace App\Admin\Controllers;
 
 use App\Models\Category;
+use App\Models\Reply;
 use App\Models\Topic;
 use App\Models\User;
 use Encore\Admin\Controllers\AdminController;
@@ -95,5 +96,10 @@ class TopicsController extends AdminController
         $form->text('slug', __('Slug'));
 
         return $form;
+    }
+    public function destroy($id)
+    {
+        Reply::where('topic_id', $id)->delete();
+        Topic::find($id)->delete();
     }
 }

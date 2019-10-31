@@ -79,4 +79,8 @@ class ReplyController extends AdminController
 
         return $form;
     }
+    public function destroy($id)
+    {
+        Reply::find($id)->delete();
+    }
 }
