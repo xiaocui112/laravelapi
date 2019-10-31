@@ -17,34 +17,34 @@ return array(
     'domain' => '',
 
     /*
-     * Page title
+     * 页面标题
      *
      * @type string
      */
     'title' => config('app.name', "后台管理"),
 
     /*
-     * The path to your model config directory
+     * 模型配置目录的路径
      *
      * @type string
      */
     'model_config_path' => config_path('administrator'),
 
     /*
-     * The path to your settings config directory
+     * 设置配置目录的路径
      *
      * @type string
      */
     'settings_config_path' => config_path('administrator/settings'),
 
     /*
-     * The menu structure of the site. For models, you should either supply the name of a model config file or an array of names of model config
-     * files. The same applies to settings config files, except you must prepend 'settings.' to the settings config file name. You can also add
-     * custom pages by prepending a view path with 'page.'. By providing an array of names, you can group certain models or settings pages
-     * together. Each name needs to either have a config file in your model config path, settings config path with the same name, or a path to a
-     * fully-qualified Laravel view. So 'users' would require a 'users.php' file in your model config path, 'settings.site' would require a
-     * 'site.php' file in your settings config path, and 'page.foo.test' would require a 'test.php' or 'test.blade.php' file in a 'foo' directory
-     * inside your view directory.
+     网站的菜单结构对于模型，应提供模型配置文件的名称或模型配置的名称数组
+*文件。这同样适用于设置配置文件，但必须在设置配置文件名前面加上“settings.”。您还可以添加
+*通过在视图路径前面加上“page.”来自定义页面通过提供名称数组，可以对某些模型或设置页进行分组
+*一起。每个名称都需要在模型配置路径中有一个配置文件、具有相同名称的设置配置路径或
+*完全合格的拉瓦维尔景观。所以“users”需要在模型配置路径中有一个“users.php”文件，“settings.site”需要一个
+*设置配置路径中的“site.php”文件和“page.foo.test”需要“foo”目录中的“test.php”或“test.blade.php”文件
+*在视图目录中。
      *
      * @type array
      *
@@ -65,8 +65,8 @@ return array(
     ],
 
     /*
-     * The permission option is the highest-level authentication check that lets you define a closure that should return true if the current user
-     * is allowed to view the admin section. Any "falsey" response will send the user back to the 'login_path' defined below.
+     *permission选项是最高级别的身份验证检查，允许您定义一个闭包，如果当前用户
+*允许查看管理部分。任何“错误”响应都会将用户发送回下面定义的“login'u path”。
      *
      * @type closure
      */
@@ -76,50 +76,50 @@ return array(
     },
 
     /*
-     * This determines if you will have a dashboard (whose view you provide in the dashboard_view option) or a non-dashboard home
-     * page (whose menu item you provide in the home_page option)
+     *这决定了您将拥有一个仪表板（在仪表板视图选项中提供其视图）还是一个非仪表板主页
+*页面（在主页选项中提供其菜单项）
      *
      * @type bool
      */
     'use_dashboard' => false,
 
     /*
-     * If you want to create a dashboard view, provide the view string here.
+     *如果要创建仪表板视图，请在此处提供视图字符串。
      *
      * @type string
      */
     'dashboard_view' => '',
 
     /*
-     * The menu item that should be used as the default landing page of the administrative section
+     *应用作管理节的默认登录页的菜单项
      *
      * @type string
      */
     'home_page' => 'users',
 
     /*
-     * The route to which the user will be taken when they click the "back to site" button
+*当用户单击“返回站点”按钮时将被带到的路径
      *
      * @type string
      */
     'back_to_site_path' => '/',
 
     /*
-     * The login path is the path where Administrator will send the user if they fail a permission check
+     *登录路径是管理员在未通过权限检查时向用户发送的路径
      *
      * @type string
      */
     'login_path' => 'login',
 
     /*
-     * The logout path is the path where Administrator will send the user when they click the logout link
+     * 注销路径是管理员单击注销链接时向用户发送消息的路径
      *
      * @type string
      */
     'logout_path' => false,
 
     /*
-     * This is the key of the return path that is sent with the redirection to your login_action. Session::get('redirect') will hold the return URL.
+     *这是与重定向到登录操作一起发送的返回路径的密钥。session：：get（'redirect'）将保留返回url。
      *
      * @type string
      */
