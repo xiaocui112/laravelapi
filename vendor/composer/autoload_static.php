@@ -15,17 +15,18 @@ class ComposerStaticInitb04b1d981eeb09989a11b85a645c70ff
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
+        '538ca81a9a966a6716601ecf48f4eaef' => __DIR__ . '/..' . '/opis/closure/functions.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
-        '538ca81a9a966a6716601ecf48f4eaef' => __DIR__ . '/..' . '/opis/closure/functions.php',
-        '9cdd7b9056abc3081735233ba9dd9c7f' => __DIR__ . '/..' . '/facade/flare-client-php/src/helpers.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
+        '9cdd7b9056abc3081735233ba9dd9c7f' => __DIR__ . '/..' . '/facade/flare-client-php/src/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         'b6ec61354e97f32c0ae683041c78392a' => __DIR__ . '/..' . '/scrivo/highlight.php/HighlightUtilities/functions.php',
         'ed962a97bd972bc82007176b647d4e36' => __DIR__ . '/..' . '/facade/ignition/src/helpers.php',
         '5e8fe2a5ffaded85af682684fe3bbf5a' => __DIR__ . '/..' . '/mews/captcha/src/helpers.php',
+        'a3a61d13a0bfb8e36cb789c5fbfdf8cf' => __DIR__ . '/..' . '/summerblue/laravel-active/src/helpers.php',
         'b4e3f29b106af37a2bb239f73cdf68c7' => __DIR__ . '/../..' . '/app/helpers.php',
     );
 
@@ -115,6 +116,11 @@ class ComposerStaticInitb04b1d981eeb09989a11b85a645c70ff
         array (
             'Intervention\\Image\\' => 19,
             'Illuminate\\' => 11,
+        ),
+        'H' => 
+        array (
+            'HieuLe\\Active\\' => 14,
+            'HieuLe\\ActiveTest\\' => 18,
         ),
         'G' => 
         array (
@@ -342,6 +348,14 @@ class ComposerStaticInitb04b1d981eeb09989a11b85a645c70ff
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
         ),
+        'HieuLe\\Active\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/summerblue/laravel-active/src',
+        ),
+        'HieuLe\\ActiveTest\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/summerblue/laravel-active/tests',
+        ),
         'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
@@ -446,6 +460,7 @@ class ComposerStaticInitb04b1d981eeb09989a11b85a645c70ff
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
+        'App\\Http\\Controllers\\CategoriesController' => __DIR__ . '/../..' . '/app/Http/Controllers/CategoriesController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\PagesController' => __DIR__ . '/../..' . '/app/Http/Controllers/PagesController.php',
         'App\\Http\\Controllers\\TopicsController' => __DIR__ . '/../..' . '/app/Http/Controllers/TopicsController.php',
@@ -1297,6 +1312,14 @@ class ComposerStaticInitb04b1d981eeb09989a11b85a645c70ff
         'Hamcrest\\Type\\IsString' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php',
         'Hamcrest\\Util' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
+        'HieuLe\\ActiveTest\\ActiveTest' => __DIR__ . '/..' . '/summerblue/laravel-active/tests/ActiveTest.php',
+        'HieuLe\\ActiveTest\\Http\\DumpController' => __DIR__ . '/..' . '/summerblue/laravel-active/tests/Http/DumpController.php',
+        'HieuLe\\ActiveTest\\Http\\DumpMiddleware' => __DIR__ . '/..' . '/summerblue/laravel-active/tests/Http/DumpMiddleware.php',
+        'HieuLe\\ActiveTest\\Http\\Kernel' => __DIR__ . '/..' . '/summerblue/laravel-active/tests/Http/Kernel.php',
+        'HieuLe\\ActiveTest\\StubModel' => __DIR__ . '/..' . '/summerblue/laravel-active/tests/StubModel.php',
+        'HieuLe\\Active\\Active' => __DIR__ . '/..' . '/summerblue/laravel-active/src/Active.php',
+        'HieuLe\\Active\\ActiveServiceProvider' => __DIR__ . '/..' . '/summerblue/laravel-active/src/ActiveServiceProvider.php',
+        'HieuLe\\Active\\Facades\\Active' => __DIR__ . '/..' . '/summerblue/laravel-active/src/Facades/Active.php',
         'Highlight\\Autoloader' => __DIR__ . '/..' . '/scrivo/highlight.php/Highlight/Autoloader.php',
         'Highlight\\Highlighter' => __DIR__ . '/..' . '/scrivo/highlight.php/Highlight/Highlighter.php',
         'Highlight\\JsonRef' => __DIR__ . '/..' . '/scrivo/highlight.php/Highlight/JsonRef.php',
