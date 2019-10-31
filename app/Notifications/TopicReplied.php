@@ -11,7 +11,7 @@ use Illuminate\Notifications\Notification;
 /**
  * 通知类
  */
-class TopicReplied extends Notification
+class TopicReplied extends Notification implements ShouldQueue
 {
     use Queueable;
     protected $reply;
