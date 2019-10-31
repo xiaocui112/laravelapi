@@ -11,7 +11,7 @@ return [
     | login page.
     |
     */
-    'name' => 'Laravel-admin',
+    'name' => '博客后台管理',
 
     /*
     |--------------------------------------------------------------------------
@@ -348,9 +348,7 @@ return [
     'minify_assets' => [
 
         // Assets will not be minified.
-        'excepts' => [
-
-        ],
+        'excepts' => [],
 
     ],
 
@@ -394,7 +392,5 @@ return [
     | https://github.com/laravel-admin-extensions.
     |
     */
-    'extensions' => [
-
-    ],
+    'extensions' => [],
 ];
