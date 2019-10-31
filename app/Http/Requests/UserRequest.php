@@ -28,6 +28,7 @@ class UserRequest extends FormRequest
             'name' => 'required|between:2,25',
             'email' => 'required|email',
             'introduction' => 'max:80',
+            'avatar' => 'mimes:jpeg,bmp,png,gif|dimensions:min_width=208,min_height=208',
         ];
     }
 }
