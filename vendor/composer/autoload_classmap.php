@@ -4197,6 +4197,7 @@ return array(
     'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => $vendorDir . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
     'TopicsTableSeeder' => $baseDir . '/database/seeds/TopicsTableSeeder.php',
     'UserDeSeeder' => $baseDir . '/database/seeds/UserDeSeeder.php',
+    'UserNotificationSeeder' => $baseDir . '/database/seeds/UserNotificationSeeder.php',
     'Webmozart\\Assert\\Assert' => $vendorDir . '/webmozart/assert/src/Assert.php',
     'Whoops\\Exception\\ErrorException' => $vendorDir . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
     'Whoops\\Exception\\Formatter' => $vendorDir . '/filp/whoops/src/Whoops/Exception/Formatter.php',

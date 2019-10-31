@@ -4659,6 +4659,7 @@ class ComposerStaticInitb04b1d981eeb09989a11b85a645c70ff
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
         'TopicsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/TopicsTableSeeder.php',
         'UserDeSeeder' => __DIR__ . '/../..' . '/database/seeds/UserDeSeeder.php',
+        'UserNotificationSeeder' => __DIR__ . '/../..' . '/database/seeds/UserNotificationSeeder.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'Whoops\\Exception\\ErrorException' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
         'Whoops\\Exception\\Formatter' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/Formatter.php',
