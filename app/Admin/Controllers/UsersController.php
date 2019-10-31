@@ -34,7 +34,9 @@ class UsersController extends AdminController
         });
         $grid->column('created_at', __('注册时间'));
         $grid->column('updated_at', __('资料更新时间'));
-        $grid->column('avatar', __('头像'));
+        $grid->column('avatar', __('头像'))->display(function ($value) {
+            return "<img src='$value' width=30 />";
+        });
         $grid->column('introduction', __('简介'));
         $grid->column('notification_count', __('通知'));
         $grid->disableCreateButton();
