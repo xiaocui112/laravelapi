@@ -6,6 +6,13 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Admin\\Controllers\\AuthController' => $baseDir . '/app/Admin/Controllers/AuthController.php',
+    'App\\Admin\\Controllers\\ExampleController' => $baseDir . '/app/Admin/Controllers/ExampleController.php',
+    'App\\Admin\\Controllers\\HomeController' => $baseDir . '/app/Admin/Controllers/HomeController.php',
+    'App\\Admin\\Controllers\\ReplyController' => $baseDir . '/app/Admin/Controllers/ReplyController.php',
+    'App\\Admin\\Controllers\\TopicsController' => $baseDir . '/app/Admin/Controllers/TopicsController.php',
+    'App\\Admin\\Controllers\\UsersController' => $baseDir . '/app/Admin/Controllers/UsersController.php',
+    'App\\Console\\Commands\\CalculateActiveUser' => $baseDir . '/app/Console/Commands/CalculateActiveUser.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Handlers\\ImageUploadHandler' => $baseDir . '/app/Handlers/ImageUploadHandler.php',
@@ -28,6 +35,7 @@ return array(
     'App\\Http\\Middleware\\CheckForMaintenanceMode' => $baseDir . '/app/Http/Middleware/CheckForMaintenanceMode.php',
     'App\\Http\\Middleware\\EncryptCookies' => $baseDir . '/app/Http/Middleware/EncryptCookies.php',
     'App\\Http\\Middleware\\EnsureEmailIsVerified' => $baseDir . '/app/Http/Middleware/EnsureEmailIsVerified.php',
+    'App\\Http\\Middleware\\RecordLastActivedTime' => $baseDir . '/app/Http/Middleware/RecordLastActivedTime.php',
     'App\\Http\\Middleware\\RedirectIfAuthenticated' => $baseDir . '/app/Http/Middleware/RedirectIfAuthenticated.php',
     'App\\Http\\Middleware\\TrimStrings' => $baseDir . '/app/Http/Middleware/TrimStrings.php',
     'App\\Http\\Middleware\\TrustProxies' => $baseDir . '/app/Http/Middleware/TrustProxies.php',
@@ -42,6 +50,7 @@ return array(
     'App\\Models\\Model' => $baseDir . '/app/Models/Model.php',
     'App\\Models\\Reply' => $baseDir . '/app/Models/Reply.php',
     'App\\Models\\Topic' => $baseDir . '/app/Models/Topic.php',
+    'App\\Models\\Traits\\ActiveUserHelper' => $baseDir . '/app/Models/Traits/ActiveUserHelper.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Notifications\\TopicReplied' => $baseDir . '/app/Notifications/TopicReplied.php',
     'App\\Observers\\ReplyObserver' => $baseDir . '/app/Observers/ReplyObserver.php',
@@ -4761,6 +4770,7 @@ return array(
     'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => $vendorDir . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
     'TopicsTableSeeder' => $baseDir . '/database/seeds/TopicsTableSeeder.php',
     'UserDeSeeder' => $baseDir . '/database/seeds/UserDeSeeder.php',
+    'UserLastSeeder' => $baseDir . '/database/seeds/UserLastSeeder.php',
     'UserNotificationSeeder' => $baseDir . '/database/seeds/UserNotificationSeeder.php',
     'Webmozart\\Assert\\Assert' => $vendorDir . '/webmozart/assert/src/Assert.php',
     'Whoops\\Exception\\ErrorException' => $vendorDir . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
