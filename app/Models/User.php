@@ -6,10 +6,12 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use App\Models\Traits\ActiveUserHelper;
 
 class User extends Authenticatable implements MustVerifyEmail
 {
     use Notifiable;
+    use ActiveUserHelper;
 
     /**
      * The attributes that are mass assignable.

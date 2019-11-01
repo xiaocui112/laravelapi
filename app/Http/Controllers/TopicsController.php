@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests\TopicRequest;
 use App\Handlers\ImageUploadHandler;
 use App\Http\Controllers\Controller;
+use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 
 class TopicsController extends Controller
@@ -18,6 +19,7 @@ class TopicsController extends Controller
 
 	public function index(Request $request, Topic $topic)
 	{
+
 		$topics = $topic->withOrder($request->order)
 			->with('user', 'category')  // 预加载防止 N+1 问题
 			->paginate();
