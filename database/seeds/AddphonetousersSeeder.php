@@ -14,7 +14,7 @@ class AddphonetousersSeeder extends Seeder
     public function run()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->string('phone')->nullable()->unique()->after('name');
+            // $table->string('phone')->nullable()->unique()->after('name');
             $table->string('email')->nullable()->change();
         });
     }
