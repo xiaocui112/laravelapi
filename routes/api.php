@@ -14,9 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::prefix('v1')->name('api.v1.')->group(function () {
-    Route::get('version', function () {
-        abort(403, 'test');
-        return 'this is version v1';
-    })->name('version');
+Route::prefix('v1')->namespace('Api')->name('api.v1.')->group(function () {
+    Route::post('verificationCodes', 'VerificationCodesController@store')->name('verificationCode.store');
 });
