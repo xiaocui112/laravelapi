@@ -20,6 +20,7 @@
         "mews/purifier": "^3.1",
         "overtrue/easy-sms": "^1.1",
         "overtrue/pinyin": "^4.0",
+        "socialiteproviders/weixin": "^4.0",
         "summerblue/generator": "^6.0",
         "summerblue/laravel-active": "^6.0"
     },
