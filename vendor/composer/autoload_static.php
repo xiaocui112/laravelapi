@@ -81,6 +81,7 @@ class ComposerStaticInitb04b1d981eeb09989a11b85a645c70ff
             'Symfony\\Component\\Console\\' => 26,
             'Summerblue\\Generator\\' => 21,
             'SocialiteProviders\\Weixin\\' => 26,
+            'SocialiteProviders\\Weibo\\' => 25,
             'SocialiteProviders\\Manager\\' => 27,
         ),
         'R' => 
@@ -300,6 +301,10 @@ class ComposerStaticInitb04b1d981eeb09989a11b85a645c70ff
         'SocialiteProviders\\Weixin\\' => 
         array (
             0 => __DIR__ . '/..' . '/socialiteproviders/weixin',
+        ),
+        'SocialiteProviders\\Weibo\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/socialiteproviders/weibo',
         ),
         'SocialiteProviders\\Manager\\' => 
         array (
@@ -4719,6 +4724,8 @@ class ComposerStaticInitb04b1d981eeb09989a11b85a645c70ff
         'SocialiteProviders\\Manager\\OAuth2\\User' => __DIR__ . '/..' . '/socialiteproviders/manager/src/OAuth2/User.php',
         'SocialiteProviders\\Manager\\ServiceProvider' => __DIR__ . '/..' . '/socialiteproviders/manager/src/ServiceProvider.php',
         'SocialiteProviders\\Manager\\SocialiteWasCalled' => __DIR__ . '/..' . '/socialiteproviders/manager/src/SocialiteWasCalled.php',
+        'SocialiteProviders\\Weibo\\Provider' => __DIR__ . '/..' . '/socialiteproviders/weibo/Provider.php',
+        'SocialiteProviders\\Weibo\\WeiboExtendSocialite' => __DIR__ . '/..' . '/socialiteproviders/weibo/WeiboExtendSocialite.php',
         'SocialiteProviders\\Weixin\\Provider' => __DIR__ . '/..' . '/socialiteproviders/weixin/Provider.php',
         'SocialiteProviders\\Weixin\\WeixinExtendSocialite' => __DIR__ . '/..' . '/socialiteproviders/weixin/WeixinExtendSocialite.php',
         'Summerblue\\Generator\\Commands\\ScaffoldMakeCommand' => __DIR__ . '/..' . '/summerblue/generator/src/Commands/ScaffoldMakeCommand.php',

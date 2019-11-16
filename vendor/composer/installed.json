@@ -5165,6 +5165,51 @@
         "description": "Easily add new or override built-in providers in Laravel Socialite."
     },
     {
+        "name": "socialiteproviders/weibo",
+        "version": "v3.0.0",
+        "version_normalized": "3.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/SocialiteProviders/Weibo.git",
+            "reference": "9df4737ad28f220cc97ac5590ab78c8de46825ee"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/SocialiteProviders/Weibo/zipball/9df4737ad28f220cc97ac5590ab78c8de46825ee",
+            "reference": "9df4737ad28f220cc97ac5590ab78c8de46825ee",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": "^5.6 || ^7.0",
+            "socialiteproviders/manager": "~3.0"
+        },
+        "time": "2017-01-25T09:48:29+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SocialiteProviders\\Weibo\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "xyxu",
+                "email": "techxu@gmail.com"
+            }
+        ],
+        "description": "weibo.com OAuth2 Provider for Laravel Socialite"
+    },
+    {
         "name": "socialiteproviders/weixin",
         "version": "v4.0.2",
         "version_normalized": "4.0.2.0",

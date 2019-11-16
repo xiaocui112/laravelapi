@@ -4189,6 +4189,8 @@ return array(
     'SocialiteProviders\\Manager\\OAuth2\\User' => $vendorDir . '/socialiteproviders/manager/src/OAuth2/User.php',
     'SocialiteProviders\\Manager\\ServiceProvider' => $vendorDir . '/socialiteproviders/manager/src/ServiceProvider.php',
     'SocialiteProviders\\Manager\\SocialiteWasCalled' => $vendorDir . '/socialiteproviders/manager/src/SocialiteWasCalled.php',
+    'SocialiteProviders\\Weibo\\Provider' => $vendorDir . '/socialiteproviders/weibo/Provider.php',
+    'SocialiteProviders\\Weibo\\WeiboExtendSocialite' => $vendorDir . '/socialiteproviders/weibo/WeiboExtendSocialite.php',
     'SocialiteProviders\\Weixin\\Provider' => $vendorDir . '/socialiteproviders/weixin/Provider.php',
     'SocialiteProviders\\Weixin\\WeixinExtendSocialite' => $vendorDir . '/socialiteproviders/weixin/WeixinExtendSocialite.php',
     'Summerblue\\Generator\\Commands\\ScaffoldMakeCommand' => $vendorDir . '/summerblue/generator/src/Commands/ScaffoldMakeCommand.php',
