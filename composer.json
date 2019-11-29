@@ -23,7 +23,8 @@
         "socialiteproviders/weibo": "^3.0",
         "socialiteproviders/weixin": "^4.0",
         "summerblue/generator": "^6.0",
-        "summerblue/laravel-active": "^6.0"
+        "summerblue/laravel-active": "^6.0",
+        "tymon/jwt-auth": "1.0.0-rc.5"
     },
     "require-dev": {
         "facade/ignition": "^1.4",

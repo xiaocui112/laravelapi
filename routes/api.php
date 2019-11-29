@@ -19,4 +19,5 @@ Route::prefix('v1')->namespace('Api')->middleware('throttle:' . config('api.rate
     Route::post('users', 'UsersController@store')->name('users.store');
     Route::post('captchas', 'CaptchasController@store')
         ->name('captchas.store');
+    Route::post('socials/{social_type}/authorizations', 'AuthorizationsController@socialStore')->where('social_type', 'weixin')->name('socials.authorizations.store');
 });
