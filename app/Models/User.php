@@ -6,10 +6,11 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Tymon\JWTAuth\Contracts\JWTSubject;
 use App\Models\Traits\ActiveUserHelper;
 use Carbon\Carbon;
 
-class User extends Authenticatable implements MustVerifyEmail
+class User extends Authenticatable implements MustVerifyEmail, JWTSubject
 {
     use Notifiable;
     use ActiveUserHelper;
@@ -76,5 +77,13 @@ class User extends Authenticatable implements MustVerifyEmail
 
         $this->last_actived_at = Carbon::now();
         $this->save();
+    }
+    public function getJWTIdentifier()
+    {
+        return $this->getkey();
+    }
+    public function getJWTCustomClaims()
+    {
+        return [];
     }
 }

@@ -20,4 +20,7 @@ Route::prefix('v1')->namespace('Api')->middleware('throttle:' . config('api.rate
     Route::post('captchas', 'CaptchasController@store')
         ->name('captchas.store');
     Route::post('socials/{social_type}/authorizations', 'AuthorizationsController@socialStore')->where('social_type', 'weixin')->name('socials.authorizations.store');
+    Route::post('authorizations', 'AuthorizationsController@store')->name('api.authorjizations.store');
+    Route::put('authorizations/current', 'AuthorizationsController@update')->name('authorizations.update');
+    Route::delete('authorizations/current', 'AuthorizationsController@destroy')->name('authorizations.destroy');
 });
