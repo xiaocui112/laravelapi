@@ -8,6 +8,7 @@ use App\Http\Requests\UserRequest;
 use Illuminate\Auth\AuthenticationException;
 use App\Http\Requests\Request;
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Hash;
 
 class UsersController extends Controller
 {
