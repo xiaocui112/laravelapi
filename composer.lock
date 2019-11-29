@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d650df832fa1c1d9b43ed0d30e394e5",
+    "content-hash": "fae03c60731753c1452b7a857b500d97",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3015,6 +3015,49 @@
             ],
             "description": "Weixin OAuth2 Provider for Laravel Socialite",
             "time": "2017-11-18T05:09:07+00:00"
+        },
+        {
+            "name": "socialiteproviders/weixin-web",
+            "version": "v3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SocialiteProviders/Weixin-Web.git",
+                "reference": "af8bacadbdc994e2170c3e5f0fb468186b80cb11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SocialiteProviders/Weixin-Web/zipball/af8bacadbdc994e2170c3e5f0fb468186b80cb11",
+                "reference": "af8bacadbdc994e2170c3e5f0fb468186b80cb11",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": "^5.6 || ^7.0",
+                "socialiteproviders/manager": "~2.0 || ~3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SocialiteProviders\\WeixinWeb\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "xyxu",
+                    "email": "techxu@gmail.com"
+                }
+            ],
+            "description": "Weixin-Web OAuth2 Provider for Laravel Socialite",
+            "time": "2018-02-12T06:58:19+00:00"
         },
         {
             "name": "summerblue/generator",

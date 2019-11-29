@@ -4203,6 +4203,8 @@ return array(
     'SocialiteProviders\\Manager\\SocialiteWasCalled' => $vendorDir . '/socialiteproviders/manager/src/SocialiteWasCalled.php',
     'SocialiteProviders\\Weibo\\Provider' => $vendorDir . '/socialiteproviders/weibo/Provider.php',
     'SocialiteProviders\\Weibo\\WeiboExtendSocialite' => $vendorDir . '/socialiteproviders/weibo/WeiboExtendSocialite.php',
+    'SocialiteProviders\\WeixinWeb\\Provider' => $vendorDir . '/socialiteproviders/weixin-web/Provider.php',
+    'SocialiteProviders\\WeixinWeb\\WeixinWebExtendSocialite' => $vendorDir . '/socialiteproviders/weixin-web/WeixinWebExtendSocialite.php',
     'SocialiteProviders\\Weixin\\Provider' => $vendorDir . '/socialiteproviders/weixin/Provider.php',
     'SocialiteProviders\\Weixin\\WeixinExtendSocialite' => $vendorDir . '/socialiteproviders/weixin/WeixinExtendSocialite.php',
     'Summerblue\\Generator\\Commands\\ScaffoldMakeCommand' => $vendorDir . '/summerblue/generator/src/Commands/ScaffoldMakeCommand.php',

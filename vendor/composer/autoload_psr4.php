@@ -37,6 +37,7 @@ return array(
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
     'Summerblue\\Generator\\' => array($vendorDir . '/summerblue/generator/src'),
     'SocialiteProviders\\Weixin\\' => array($vendorDir . '/socialiteproviders/weixin'),
+    'SocialiteProviders\\WeixinWeb\\' => array($vendorDir . '/socialiteproviders/weixin-web'),
     'SocialiteProviders\\Weibo\\' => array($vendorDir . '/socialiteproviders/weibo'),
     'SocialiteProviders\\Manager\\' => array($vendorDir . '/socialiteproviders/manager/src'),
     'Ramsey\\Uuid\\' => array($vendorDir . '/ramsey/uuid/src'),

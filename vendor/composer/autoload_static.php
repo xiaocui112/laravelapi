@@ -12,9 +12,9 @@ class ComposerStaticInitb04b1d981eeb09989a11b85a645c70ff
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
-        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
@@ -82,6 +82,7 @@ class ComposerStaticInitb04b1d981eeb09989a11b85a645c70ff
             'Symfony\\Component\\Console\\' => 26,
             'Summerblue\\Generator\\' => 21,
             'SocialiteProviders\\Weixin\\' => 26,
+            'SocialiteProviders\\WeixinWeb\\' => 29,
             'SocialiteProviders\\Weibo\\' => 25,
             'SocialiteProviders\\Manager\\' => 27,
         ),
@@ -306,6 +307,10 @@ class ComposerStaticInitb04b1d981eeb09989a11b85a645c70ff
         'SocialiteProviders\\Weixin\\' => 
         array (
             0 => __DIR__ . '/..' . '/socialiteproviders/weixin',
+        ),
+        'SocialiteProviders\\WeixinWeb\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/socialiteproviders/weixin-web',
         ),
         'SocialiteProviders\\Weibo\\' => 
         array (
@@ -4743,6 +4748,8 @@ class ComposerStaticInitb04b1d981eeb09989a11b85a645c70ff
         'SocialiteProviders\\Manager\\SocialiteWasCalled' => __DIR__ . '/..' . '/socialiteproviders/manager/src/SocialiteWasCalled.php',
         'SocialiteProviders\\Weibo\\Provider' => __DIR__ . '/..' . '/socialiteproviders/weibo/Provider.php',
         'SocialiteProviders\\Weibo\\WeiboExtendSocialite' => __DIR__ . '/..' . '/socialiteproviders/weibo/WeiboExtendSocialite.php',
+        'SocialiteProviders\\WeixinWeb\\Provider' => __DIR__ . '/..' . '/socialiteproviders/weixin-web/Provider.php',
+        'SocialiteProviders\\WeixinWeb\\WeixinWebExtendSocialite' => __DIR__ . '/..' . '/socialiteproviders/weixin-web/WeixinWebExtendSocialite.php',
         'SocialiteProviders\\Weixin\\Provider' => __DIR__ . '/..' . '/socialiteproviders/weixin/Provider.php',
         'SocialiteProviders\\Weixin\\WeixinExtendSocialite' => __DIR__ . '/..' . '/socialiteproviders/weixin/WeixinExtendSocialite.php',
         'Summerblue\\Generator\\Commands\\ScaffoldMakeCommand' => __DIR__ . '/..' . '/summerblue/generator/src/Commands/ScaffoldMakeCommand.php',
